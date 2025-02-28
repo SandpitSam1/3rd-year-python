@@ -1,0 +1,24 @@
+#variables explained
+
+#this is a variable
+i = 1
+who = "'s there"
+
+#the variable is called "who"
+#it stores a value
+#the value is "'s there"
+#variables are used a lot
+#e.g.
+score = 999
+exp = -235421
+coding_proficiency = -20
+
+#the value can change
+print(score)
+score = 100
+print(score)
+score -= 300
+print(score)
+
+#variables use 1 "="
+#logic uses 2 "="

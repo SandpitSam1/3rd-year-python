@@ -1,0 +1,16 @@
+#data types
+#cribs
+character = "s" #single letter str
+floatvar = 3.14
+integer = 2
+boolean = True #capital T
+string = "12" #speech marks
+
+big_string = string + character
+print(big_string)
+
+ans = int(string) + integer
+print(ans)
+
+ans = ans + floatvar
+print(ans)

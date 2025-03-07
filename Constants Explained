@@ -1,0 +1,24 @@
+#Constants explained
+
+#The definition of a variable is:
+#A named location
+#In a computer's memory
+#that stores a value
+#the value can change
+
+#The definition of a constant is:
+#A named location
+#in a computer's memory that stores a value
+#the value should not be changed
+#written in all caps
+
+
+#here is an example of a constant
+PAWNVALUE = 1
+KNIGHTVALUE = 3
+BISHOPVALUE = 3.25
+ROOKVALUE = 5
+QUEENVALUE = 9
+KINGVALUE = 4
+captures = 0
+bananas_collected = -2

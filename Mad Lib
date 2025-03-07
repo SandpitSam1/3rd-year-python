@@ -1,0 +1,9 @@
+print("answer some questions:")
+print("")
+
+adj1 = str(input("Input an adjective: "))
+noun1 = str(input("Input a noun: "))
+contr1 = str(input("Input a contry: "))
+nat1 = str(input("Input a nationality: "))
+
+print("In the contry of " + contr1 + " there was a " + nat1 + " " + noun1)

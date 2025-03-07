@@ -1,0 +1,25 @@
+#input explained
+#python has many built in functions
+#here is a list:
+#https://docs.python.org/3/library/functions.html
+
+#here is a variable
+name = ""
+
+#use input() to let someone type their name
+name = str(input("enter name pls: "))
+print("g'day", name)
+
+age = int(input("enter age pls: "))
+print("wow", age, "is very old")
+
+colour = str(input("i need more personal details for no particular reason, gimme a colour: "))
+print(colour, "is a horrible colour to like")
+
+location = str(input("may as well ask for where you live so I can ask you more strange questions: "))
+print(location + "...\nNoted...") #use + to get rid of the space, and \n to drop a line
+
+child = float(input("how many children are in your basement (don't round to the nearest integer): "))
+print("you need more")
+
+

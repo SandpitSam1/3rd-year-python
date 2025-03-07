@@ -19,7 +19,7 @@ print(colour, "is a horrible colour to like")
 location = str(input("may as well ask for where you live so I can ask you more strange questions: "))
 print(location + "...\nNoted...") #use + to get rid of the space, and \n to drop a line
 
-child = float(input("how many children are in your basement (don't round to the nearest integer): "))
+child = float(input("how many children do you have (don't round to the nearest integer): "))
 print("you need more")
 
 

@@ -1,0 +1,199 @@
+#1
+skyColour = "blue"
+if skyColour == "blue":
+  print ("The sky is blue today")
+
+#2
+skyColour = "blue"
+
+if skyColour == "purple":
+  print ("The sky is blue today")
+else:
+  print("The sky is NOT blue")
+
+#3
+numEntered= int(input("Enter a 2, 3 or 4"))
+
+if numEntered == 2:
+  print("You entered a 2")
+elif numEntered == 3:
+  print("You entered a 3")
+else:
+  print("You entered a 4")
+
+#4
+litter= int(input("How many puppies were born?"))
+
+if litter <=5:
+  print("5 or less is a good size")
+elif litter == 6:
+  print("6 is manageable")
+else:
+  print("wow!")
+
+#5
+passengers= int(input("How many passengers?"))
+
+if passengers <=4:
+  print("send 4-seater car")
+elif passengers >4 and passengers <17:
+  print("send 16-seater")
+else:
+  print("send coach")
+
+#6
+age = 13
+ticket = True
+
+print("Welcome to the cinema")
+print("This movie is rated 15")
+print("")
+
+if age >= 15 and ticket == True:
+  print("Please find your seat")
+else:
+  print("You are not allowed this time")
+
+#7
+print("Welcome to the cinema")
+print("This movie is rated 15")
+print("")
+
+ticket = str(input("Do you have a ticket? (y/n)"))
+age = int(input("How old are you? (Don't lie)"))
+
+if age >= 15 and ticket == "y":
+  print("Please find your seat")
+else:
+  print("You are not allowed this time")
+
+#8
+print("Press 1 for 1-player, 2 for 2-player, 3 for 3-player")
+
+key = int(input())
+
+if key < 4 :
+  print("Thank you for choosing " + str(key) + "-player")
+else:
+  print("invalid choice")
+
+#9
+age = 17
+invite = True
+member = False
+
+if age > 17 and (invite == True or member == True):
+  print("welcome")
+else:
+  print("get out")
+
+#10
+kebab = str(input("wanna kebab? (y/n)"))
+
+if kebab == "y":
+  chilli = str(input("with chilli sause?"))
+  if chilli == "y":
+    print("of course you want chilli sause")
+  else:
+    print("hmm")
+else:
+  print("are you feeling ok?")
+
+#11
+num = int(input("gimme a number"))
+
+if num < 10:
+  print("too low")
+elif num >= 10 and num <= 20:
+  print("correct")
+else:
+  print("too high you crazy pizza pie")
+
+
+#comparitor operator challenges
+#1
+print(10 > 5)
+
+#2
+print(100 == 100)
+
+#3
+print(100 == 100)
+
+#4
+print(100 > 1 and 5 < 10)
+
+#5
+print(100 != 1 and 5 < 10 and 37 == 37 )
+
+#6
+print(100 != 1 or 100 == 100)
+
+#7
+print("a" == "a" and "b" == "b")
+
+#8
+print("a" == "a" and True == (not False))
+
+#9
+if 5 > 3 and "a" == "a" and True ==(not False):
+    print("makes sense to me")
+
+#10
+if True == (not False) and False == (not True):
+    print("yep, i get it")
+
+
+#for loops challenges
+#1
+for i in range(10):
+  print("kebab")
+
+#2
+for i in range(0, 3 * 12 + 1, 3):
+    print(i)
+
+#3
+name = str(input("Input your name>>>"))
+timeshow = int(input("how many times repeated?"))
+
+for i in range(timeshow):
+  print(name)
+
+#4
+number = int(input("Enter a times table: "))
+
+for i in range(1, 13):
+  print("showing the", number, "times table")
+  print(i ,"x", number, "=", i * number)
+
+#5
+for i in range(10, 0, -1):
+  print (i)
+print("!!Blast off!!")
+
+#6
+number = 0 
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+
+for i in rainbow:
+  number = number + 1
+  print ("Colour",number,"is", i)
+
+#7
+number = int(input("gimme a number below 100 although any positive integer can work for me"))
+
+for i in range(number, -1, -1):
+  print(i)
+
+#8
+import random
+
+for i in range (0, 6):
+  print(str(random.randint(0, 50)))
+
+#9
+import random
+
+for i in range (1, 9):
+  print("Player " + str(i) + " gets $" + str(random.randint(1, 100000)))

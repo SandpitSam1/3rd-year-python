@@ -1,0 +1,78 @@
+#Read/Write to files challenge 01 (GCSECS.com)
+#There is syntax error in this code
+#It is meant to display a poem
+#Can you fix it?
+
+holder = open("poem.txt", "r")
+print(holder.read())
+holder.close()
+
+
+#Read/Write to files challenge 02 (GCSECS.com)
+#There is syntax error in this code
+#It is meant to display a poem#
+#Can you fix it?
+
+holder = open("poem.txt", "r")
+print(holder.read())
+holder.close()
+
+
+#Read/Write to files challenge 03 (GCSECS.com)
+#There is syntax error in this code
+#It is meant to display a poem
+#Can you fix it?
+
+holder = open("poem.txt", "r")
+print(holder.read())
+holder.close()
+
+
+#Read/Write to files challenge 04 (GCSECS.com)
+#Look above, can you see main.py?
+#Next to it is "readthis.txt"
+#Click between them - readThis.txt is empty
+#The code is meant to allow a user..
+#..to input content which is written to..
+#...readthis.txt. But it doesnt work
+#Can you fix it?
+
+notepad = open("readThis.txt", "w")
+userContent = input("Type something>>>")
+notepad.write(userContent)
+notepad.close()
+
+
+#Read/Write to files challenge 05 (GCSECS.com)
+#run the code
+#Can you see the difference between...
+#readline and readlines?
+#Can you edit the code so it only..
+#..displays the first two lines..
+#..of the poem
+
+holder = open("poem.txt", "r")
+print(holder.readline())
+print(holder.readline())
+holder.close()
+
+
+#Read/Write to files challenge 06 (GCSECS.com)
+#The code below if meant to...
+#..display a poem, one line at a time..
+#..using a loop and .readline()
+#There are lots of syntax errors
+#Can you fix it?
+
+holdPoem = open("poem.txt", "r")
+
+loop = True
+while loop == True:
+  oneLinefromPoem = holdPoem.readline()
+  print(oneLinefromPoem)
+  if oneLinefromPoem == "":
+    loop = False
+  
+holdPoem.close()
+
+
